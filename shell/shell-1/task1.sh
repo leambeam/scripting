@@ -1,5 +1,10 @@
 #!/bin/bash
 
+<<task
+Create a script that takes two command line arguments.
+Script returns the following arithmetic solutions: addition, substraction, multiplication
+task
+
 # Input section 
 echo Input your first number:
 read num1

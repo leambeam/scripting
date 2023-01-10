@@ -1,3 +1,10 @@
+
+<#
+Create an array named $names, that includes seven (7) names. 
+You can select the names, they can be your friends or comic characters. 
+Create a script that show how many items is in the array, shows the items and so also the first and last name of the array. 
+#>
+
 $names =@("Grigory", "Ivan", "Taavi", "Yago", "Veeti", "Adham", "Onni")
 
 $counter = ($names).Count

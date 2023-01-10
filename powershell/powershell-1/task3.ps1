@@ -1,3 +1,8 @@
+
+<#
+Ask two integers from user, and return addition, subtraction, multiplication and division of numbers. 
+#>
+
 $a = Read-Host "Please enter the first integer"
 $b = Read-Host "Please give the second integer"
 

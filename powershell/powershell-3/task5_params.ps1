@@ -1,3 +1,12 @@
+
+<#
+Create a script that takes two parameters: foldername and newname. 
+Check first if the given folder, exists. 
+If not, show a proper message and quit the script. 
+If the folder exist, count files in the folder, and ask from a user: "All {number} files will be renamed with name {newname}. Yes/No".
+ If the user returns "Yes", rename all files in the folder.
+#>
+
 param([string]$foldername="",[string]$newname="")
 $extension=(Split-Path -Path $newname -Leaf).Split(".")[1] #getting a file's extension from input
 $basename=(Split-Path -Path $newname -Leaf).Split(".")[0]# getting a file's name. Similar to command (Get-Item $item).Basename
