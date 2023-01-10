@@ -1,0 +1,3 @@
+https://www.jamk.fi/en
+https://ttc2060.pages.labranet.jamk.fi/Powershell/25-tasks/#powershell-5
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/import-csv?view=powershell-7.3
