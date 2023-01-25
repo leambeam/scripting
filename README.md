@@ -1,4 +1,4 @@
-# Scripting and automatization 
+# A repository for scripting and automatization course exercises
 
 ## Bash 
 
